@@ -5,7 +5,7 @@ This repository contains a simple example that uses the Parler TTS model to gene
 Files
 - `parler_terminal_tts.py` — Main script. It analyzes a sample voice WAV to derive a short description, then synthesizes text input to WAV files using the `ai4bharat/indic-parler-tts` model.
 - `requirements.txt` — Project dependencies (best-effort). See notes below about `torch` and `parler_tts`.
-- `SHUBHAM VO_MARATHI.wav`, `tts_1.wav`, `tts_2.wav` — example audio files.
+- `VO_MARATHI.wav`, `tts_1.wav`, `tts_2.wav` — example audio files.
 
 Quick features
 - Analyze a sample WAV to infer pitch, tempo, and energy and form a descriptive prompt.
