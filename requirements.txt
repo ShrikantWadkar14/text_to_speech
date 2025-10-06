@@ -1,0 +1,22 @@
+# Requirements for parler_terminal_tts.py
+# Note: adjust versions and install method for `torch` (CPU vs CUDA) and for `parler-tts` if it's not available on PyPI.
+
+torch>=1.13.1
+transformers>=4.30.0
+librosa>=0.10.0
+numpy>=1.24.0
+soundfile>=0.12.1
+
+# Parler TTS: the code imports `parler_tts`. If a PyPI package named `parler-tts` or
+# `parler_tts` exists you can replace the following git entry with the PyPI name.
+# If the package is hosted on GitHub, uncomment the git+ line below and adjust URL if needed.
+# Example (uncomment if applicable):
+# git+https://github.com/ai4bharat/parler-tts.git#egg=parler-tts
+
+# Optional / recommended:
+# - If you want audio playback from Python you may add `sounddevice` or `pyaudio`.
+# - For faster audio IO with torchaudio (optional):
+# torchaudio>=0.13.0
+
+# Install with:
+#    pip install -r requirements.txt
